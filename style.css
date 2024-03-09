@@ -1,0 +1,65 @@
+body {
+  background-color: hsl(47, 88%, 63%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 1rem;
+  box-shadow: 10px 10px;
+  border: 1px solid black;
+  font-family: "Figtree", sans-serif;
+}
+
+img {
+  padding: 1rem;
+  border-radius: 2rem;
+}
+
+.content {
+  padding: 0 1rem;
+}
+
+.category {
+  font-weight: 800;
+  background-color: hsl(47, 88%, 63%);
+  border-radius: 0.4rem;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 0.6rem 0.875rem;
+}
+
+.publishdate {
+  margin: 0.8rem 0;
+  font-weight: 500;
+}
+
+.title {
+  margin: 0.8rem 0;
+  font-weight: 800;
+}
+
+.description {
+  margin: 0.8rem 0;
+  font-weight: 400;
+  color: gray;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.author h5 {
+  font-weight: 800;
+  font-size: 1rem;
+}
+
+.author img {
+  width: 2rem;
+  height: 2rem;
+}/*# sourceMappingURL=style.css.map */
